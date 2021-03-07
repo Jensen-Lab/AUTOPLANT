@@ -1,8 +1,10 @@
 # Autoplant
 Neural networks and robotic microneedles enable autonomous extraction of plant metabolites
 
-Hansol Bae, Magnus Paludan, Jan Knoblauch and Kaare H. Jensen*
+Hansol Bae, Magnus Paludan, Jan Knoblauch and Kaare H. Jensen
+
 Department of Physics, Technical University of Denmark, DK-2800 Kgs. Lyngby
+
 E-mail for correspondence: khjensen@fysik.dtu.dk
 
 
