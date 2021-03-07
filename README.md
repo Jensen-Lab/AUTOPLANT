@@ -1,7 +1,12 @@
-# DANE-Plant
-Developing Autonomous Non-disruptive Extraction (DANE) from Plants 
+# Autoplant
+Neural networks and robotic microneedles enable autonomous extraction of plant metabolites
 
-This repo contains scripts for
+Hansol Bae, Magnus Paludan, Jan Knoblauch and Kaare H. Jensen*
+Department of Physics, Technical University of Denmark, DK-2800 Kgs. Lyngby
+E-mail for correspondence: khjensen@fysik.dtu.dk
+
+
+This repository contains scripts for
 1. controlling a Sutter Instruments ROE-200 micromanipulator ("micromanipulator/") 
 2. generating training data for a CNN for glandular trichome detection on micrographs ("generate_training_data/") 
 3. training (transfer learning) GoogLeNet for glandular trichome detection on micrographs ("train_neural_network/") 
