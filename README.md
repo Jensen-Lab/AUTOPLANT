@@ -1,3 +1,4 @@
+![alt text](https://github.com/Jensen-Lab/AUTOPLANT/blob/main/Bae2021a.jpg)
 # Autoplant
 Neural networks and robotic microneedles enable autonomous extraction of plant metabolites
 
