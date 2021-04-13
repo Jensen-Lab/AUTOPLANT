@@ -1,6 +1,8 @@
 ![alt text](https://github.com/Jensen-Lab/AUTOPLANT/blob/main/Bae2021a.jpg)
-# Autoplant
+# Supplemental Online Material
 Neural networks and robotic microneedles enable autonomous extraction of plant metabolites
+
+Plant Physiology (2021)
 
 Hansol Bae, Magnus Paludan, Jan Knoblauch and Kaare H. Jensen
 
