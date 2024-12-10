@@ -1,4 +1,4 @@
-# Six-Axis Movement System Control Web App
+# Six-Axis Micro Manipulator Control
 
 ## Overview
 This web application provides an interface to control a six-axis movement system integrated with camera functionalities (Basler acA1920-150uc), acquisition settings, and end effector controls. The app allows users to manipulate and monitor their equipment through a web interface.
