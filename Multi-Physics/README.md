@@ -1,4 +1,4 @@
-![Key Figure](Image1.png)
+![Key Figure](Figure1.png)
 
 # Supplemental Material for "A multi-physics approach to probing plant responses: From calcium signaling to thigmonasit motion"
 
