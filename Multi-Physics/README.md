@@ -1,4 +1,4 @@
-![alt text](https://github.com/Jensen-Lab/AUTOPLANT/MultiPhysics/Figure1.pdf)
+![alt text](https://github.com/Jensen-Lab/AUTOPLANT/MultiPhysics/Figure1.png)
 
 # Supplemental Material for "A multi-physics approach to probing plant responses: From calcium signaling to thigmonasit motion"
 
