@@ -12,9 +12,9 @@ void setup() {
 }
 
 String readString;
-int time_on = 30;
-int time_off = 10;
-int total_time_on = 50;
+long time_on = 30;
+long time_off = 10;
+long total_time_on = 80;
 int running = 0;
 
 void loop() {
@@ -46,8 +46,15 @@ void loop() {
 
 
   if (running == 1){
-    time_t startTime_total = minute()*60 + second();
-    while (total_time_on > minute()*60+second()){
+    // time_t startTime_total = minute()*60 + second();
+    // while (total_time_on > minute()*60+second()){
+    time_t startTime_total = millis();
+    // while (astrapi_total_time_on > minute()*60+second()){
+    // Serial.println(total_time_on);
+    // Serial.println(total_time_on*1000);
+    // Serial.println(startTime_total);
+    // Serial.println(startTime_total+total_time_on*1000);
+    while ((startTime_total+total_time_on*1000) > millis()){  
       digitalWrite(switchPin, HIGH);
       delay(time_on*1000);
       digitalWrite(switchPin, LOW);
