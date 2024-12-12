@@ -104,10 +104,9 @@ global astrapi_time_off
 #-----------------------------------------------------------------------------------------------------------------
 # define path - change according to needs
 #-----------------------------------------------------------------------------------------------------------------
-path = '/home/sabrina/Documents/Code/Camera'
-path = '/media/sabrina/Sabrina/MimosaPudica'
+path = '/home/user/Documents/Camera'
 
-experiment='/MimosaPudica/'
+experiment='/Test/'
 
 
 
