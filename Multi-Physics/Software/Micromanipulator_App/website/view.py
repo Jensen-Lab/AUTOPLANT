@@ -104,8 +104,10 @@ global astrapi_time_off
 #-----------------------------------------------------------------------------------------------------------------
 # define path - change according to needs
 #-----------------------------------------------------------------------------------------------------------------
-path = '/home/user/Documents/Camera'
-experiment='/Test/'
+path = '/home/sabrina/Documents/Code/Camera'
+path = '/media/sabrina/Sabrina/MimosaPudica'
+
+experiment='/MimosaPudica/'
 
 
 
@@ -1183,25 +1185,31 @@ def laser_off():
 @view.route('/laser_total_time_on', methods=['GET', 'POST'])
 def laser_total_time_on_f():
     global laser_total_time_on
+    axis = ser_dict['laser']
     if request.method == 'POST':
         r = float(request.form.get('text_laser_total_time_on'))
         laser_total_time_on = r
+        axis.write(str.encode('a'+str(laser_total_time_on)))
     return render_template('index.html')
 
 @view.route('/laser_time_on', methods=['GET', 'POST'])
 def laser_time_on_f():
     global laser_time_on
+    axis = ser_dict['laser']
     if request.method == 'POST':
         r = float(request.form.get('text_laser_time_on'))
         laser_time_on = r
+        axis.write(str.encode('t'+str(laser_time_on)))
     return render_template('index.html')
 
 @view.route('/laser_time_off', methods=['GET', 'POST'])
 def laser_time_off_f():
     global laser_time_off
+    axis = ser_dict['laser']
     if request.method == 'POST':
         r = float(request.form.get('text_laser_time_off'))
         laser_time_off = r
+        axis.write(str.encode('o'+str(laser_time_off)))
     return render_template('index.html')
 
 #-----------------------------------------------------------------------------------------------------------------
