@@ -1,10 +1,10 @@
 ![Key Figure](Figure1.png)
 
-# Supplemental Material for "A multi-physics approach to probing plant responses: From calcium signaling to thigmonasit motion"
+# Supplemental Material for "A multi-physics approach to probing plant responses: From calcium signaling to thigmonastic motion"
 
 This repository contains supplemental material for the paper titled:
 
-"A multi-physics approach to probing plant responses: From calcium signaling to thigmonasit motion" 
+"A multi-physics approach to probing plant responses: From calcium signaling to thigmonastic motion" 
 Sabrina Gennis, Matthew D. Biviano, Kristoffer P. Lyngbirk, Hannah R. Thomas, Viktoriya Vasina, Christine Faulkner, Michael Knoblauch and Kaare H. Jensen
 
 Here, you will find additional data, and resources to build and use the six axis micromanipulator and the different probes that are used in the paper.
